@@ -22,7 +22,7 @@ const Footer = () => {
         {/* Contact Us Section */}
         <div className="flex flex-col gap-5">
           <p className="text-xl lg:text-2xl">Contact Us</p>
-          <div className="flex flex-col lg:flex-row gap-5">
+          <div className="flex  gap-5">
             <p className="text-[#00283c] bg-white hover:bg-blue-500 rounded-full p-3 cursor-pointer flex items-center justify-center text-xl lg:text-2xl">
               <FaInstagram />
             </p>
