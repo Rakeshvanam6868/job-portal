@@ -6,7 +6,7 @@ import OurStory from "../Components/OurStory";
 const AboutPage=()=>{
     return(
         <>
-           <div className="">
+           <div className="overflow-hidden">
                <AboutUs/>
                <OurStory/>
                <MakesUs/>
