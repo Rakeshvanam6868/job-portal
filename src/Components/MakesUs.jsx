@@ -2,7 +2,7 @@ import aboutImage from "../assets/makes1.jpg";
 
 const MakesUs = () => {
   return (
-    <div className="bg-[#FFFAE1] sm:pt-20 pl-4 sm:pl-20 pb-20">
+    <div className="bg-[#FFFAE1] pt-20 pl-4 sm:pl-20 pb-20">
       {/* Title */}
       <div className="flex flex-col items-start justify-center gap-4 sm:gap-6">
         <p className="text-2xl sm:text-3xl lg:text-4xl font-bold">What Makes Us, Us</p>
@@ -22,7 +22,7 @@ const MakesUs = () => {
           } gap-8 sm:gap-12 pt-12 sm:pt-20`}
         >
           {/* Image */}
-          <div className="w-full flex justify-center items-center sm:w-1/2">
+          <div className="w-full -ml-5 flex justify-center items-center sm:w-1/2">
             <img
               className="w-[500px] h-[500px] object-cover rounded-lg"
               src={aboutImage}
